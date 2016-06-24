@@ -1,0 +1,15 @@
+<resources>
+	<string name="primaryKey">670b8ce997af4ccd89b6b07814bbf85e</string>
+	<string name="secondaryKey">34b5fe58b3b44baba9882eb8d78116cd</string>
+
+	<string name="luisAppID">5f1e694f-0ac0-4426-a0eb-4a54bd00071f </string>
+	<string name="luisSubscriptionID">397f52a40f044c85a8a5894be2598987</string>
+
+	<string name="app_name">Robotic</string>
+	<string name="action_settings">Settings</string>
+
+	<string name="title">"Robotic Interaction"</string>
+
+	<string name="btn_start">Start Record</string>
+	<string name="btn_stop">Stop Record</string>
+</resources>
