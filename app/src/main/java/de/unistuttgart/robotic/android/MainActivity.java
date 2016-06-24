@@ -1,4 +1,4 @@
-package robotic.android.unistuttgart.de.robotic;
+package de.unistuttgart.robotic.android;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -21,7 +21,7 @@ import com.microsoft.projectoxford.speechrecognition.*;
 import com.microsoft.windowsazure.mobileservices.MobileServiceClient;
 import org.json.JSONArray;
 import org.json.JSONObject;
-
+import robotic.android.unistuttgart.de.robotic.R;
 
 public class MainActivity extends AppCompatActivity implements ISpeechRecognitionServerEvents {
 
@@ -143,12 +143,8 @@ public class MainActivity extends AppCompatActivity implements ISpeechRecognitio
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
@@ -224,6 +220,11 @@ public class MainActivity extends AppCompatActivity implements ISpeechRecognitio
         }
     }
 
+    /**
+     * for RaspberryPi to choose the right operation for robot
+     * @param keyword: operation keyword,
+     * @throws Exception
+     */
     private void sendCommand(String keyword) throws Exception {
 
         RequestQueue queue = Volley.newRequestQueue(this);

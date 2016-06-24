@@ -1,4 +1,4 @@
-package robotic.android.unistuttgart.de.robotic;
+package de.unistuttgart.robotic.android;
 
 /**
  * Created by Marvin on 24.06.2016.
