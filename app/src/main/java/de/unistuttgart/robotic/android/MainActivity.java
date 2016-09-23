@@ -21,7 +21,6 @@ import com.microsoft.projectoxford.speechrecognition.*;
 import com.microsoft.windowsazure.mobileservices.MobileServiceClient;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import robotic.android.unistuttgart.de.robotic.R;
 
 public class MainActivity extends AppCompatActivity implements ISpeechRecognitionServerEvents {
 
