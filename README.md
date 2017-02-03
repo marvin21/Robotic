@@ -4,4 +4,6 @@ Android App for interaction with human, processing speech input data to Bing Spe
 
 <img src="https://github.com/marvin21/Speech2Robot/blob/master/res/makeathon.png">
 
+## 2nd place
+
 <img src="https://github.com/marvin21/Speech2Robot/blob/master/res/team.png">
