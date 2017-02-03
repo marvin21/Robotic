@@ -2,7 +2,7 @@
 
 Android App for interaction with human, processing speech input data to Bing Speech API and then to Microsoft LUIS to enable interaction with a 3D-printed robot through mapping of entity keywords. It was created during a Makeathon in Munich at 17./18 June 2016
 
-<img src="https://mwohlfarth.de/index.php/2016/06/20/makeathon-automatica-in-muenchen/" alt="">
+<img src="https://github.com/marvin21/Speech2Robot/blob/master/res/makeathon.png" alt="">
 
 ## 2nd place: Team Stuggi
 
